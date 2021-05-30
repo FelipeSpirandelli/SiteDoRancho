@@ -4,7 +4,7 @@ img {
     margin-top: 5px;
     margin-left: 5px;
 }
-div.navbar {
+.navbar {
     height: 40px;
     display: flex;
     flex-grow: 1;
@@ -12,7 +12,39 @@ div.navbar {
     justify-content: space-between;
     justify-items: center;
     background-color: #33415C;
+    margin:0;
 }
+.scrolled {
+    position: fixed;
+    top: 0;
+    background-color: #0466C8;
+    border: none;
+    color:#0466C8; 
+    margin:10px;
+    height: 18px;
+    width: 18px;
+    border-radius: 9px;
+    text-indent: 100px;
+    text-transform: capitalize;
+    cursor: pointer;
+  }
+  .scrolled:hover {
+    width:90px;
+    height: 30px;
+    background-color: #0466C8;
+    color: #000;
+    text-align: center;
+    text-indent: 0px;
+    text-transform: capitalize;
+    border-radius: 45px;
+    border-color: #FFF;
+    display: inline-block;
+    border-width: 1px;
+    align-items: center;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    z-index: 1;
+  }
 div.within {
     height: 40px;
     display: flex;
@@ -23,5 +55,5 @@ div.within {
     background-color: #33415C;
 }
 body{
-    background-color: aqua;
+    background-color: #000;
 }
