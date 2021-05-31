@@ -4,7 +4,7 @@ div.footer{
     flex-direction: row;
     justify-content:space-around;
     padding: 20px;
-    height: 100px;
+    height: 60px;
 }
 div.logo{
     display: flex;

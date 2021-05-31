@@ -1,6 +1,9 @@
 import React, { useEffect } from 'react'
+import { Link } from 'react-router-dom';
+
 import logo from "../assets/images/gapsj.png"
 import BaseButton from "./button.js"
+
 import "../CSS/texts.css"
 import "../CSS/navbar.css"
 
@@ -30,12 +33,18 @@ const Navbar = () => {
     return (
         <div className= "navbar">
             <div className="within">
-                <img src={logo} alt="Logo GAP-SJ" />
+                    <Link to="/" className="Nav__brand">
+                    <img src={logo} alt="Logo GAP-SJ" />
+                    </Link>
                 <h4> GAP </h4>
             </div>
             <div className="within">
+                <Link to="/" className="nav-button">
                 <BaseButton classname={navbarClasses.join(" ")} text="CARDÁPIO" />
+                </Link>
+                <Link to="/about" className="nav-button">
                 <BaseButton classname="text-button" text="SOBRE NÓS" />
+                </Link>
             </div>
         </div>
     )

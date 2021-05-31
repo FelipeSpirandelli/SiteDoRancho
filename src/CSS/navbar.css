@@ -3,6 +3,7 @@ img {
     width: 20px;
     margin-top: 5px;
     margin-left: 5px;
+    cursor: pointer;
 }
 .navbar {
     height: 40px;
@@ -56,4 +57,7 @@ div.within {
 }
 body{
     background-color: #000;
+}
+.nav-button {
+    height: 100%;
 }

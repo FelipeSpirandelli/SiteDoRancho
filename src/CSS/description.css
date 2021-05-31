@@ -1,0 +1,23 @@
+.kitchen {
+    height: 15%;
+    width: 50%;
+    margin: 20px 0 20px 0;
+    align-self: center;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    margin: 15px;
+}
+
+.title{
+    align-self: center;
+}
+
+.text {
+    width: 90%;
+    align-self: center;
+    text-align: justify;
+}
